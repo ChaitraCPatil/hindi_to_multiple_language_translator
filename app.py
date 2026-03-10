@@ -30,8 +30,8 @@ st.set_page_config(page_title="MILTRANS: Hindi → All Languages", page_icon="�
 # ---------------------------
 # MongoDB Atlas Connection
 # ---------------------------
-username = "patilchaitra612"
-password = "12345"  # ⚠️ For production, store securely (env vars)
+username = "YOUR_USERNAME"
+password = "YOUR_PASSWORD"  # ⚠️ For production, store securely (env vars)
 uri = f"mongodb+srv://{username}:{password}@cluster1.oxcvzfp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
 
 client = MongoClient(uri, server_api=ServerApi('1'))
@@ -381,3 +381,4 @@ if st.button("Translate"):
 
     else:
         st.warning("Please provide text input.")
+
