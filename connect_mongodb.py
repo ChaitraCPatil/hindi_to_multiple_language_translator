@@ -28,8 +28,8 @@ df = pd.read_csv(csv_file)
 data = df.to_dict(orient="records")
 
 # 3.Use the new password
-username = "patilchaitra612"
-password = "12345"  # exactly as set in MongoDB Atlas
+username = "YOUR_USERNAME"
+password = "YOUR_PASSWORD" # exactly as set in MongoDB Atlas
 
 uri = f"mongodb+srv://{username}:{password}@cluster1.oxcvzfp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
 
