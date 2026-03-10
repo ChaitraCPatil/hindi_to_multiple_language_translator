@@ -1,0 +1,14 @@
+streamlit
+easyocr
+pillow
+requests
+beautifulsoup4
+transformers
+indic-nlp-library
+numpy
+SpeechRecognition
+pydub
+audio-recorder-streamlit
+pymongo
+moviepy
+torch
